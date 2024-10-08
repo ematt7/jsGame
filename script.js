@@ -114,7 +114,7 @@ $(function(){
                   $("#score").hide();
                   $('#startreset').html('Inicio');
                   $('#gameOver').show();
-                  $('#gameOver').html('</br></br></br><p>Fin del Juego!</p><p>Puntaje '+ score + '</p>');
+                  $('#gameOver').html('</br></br></br><p>Fin del Juego!</p></br>Puntaje '+ score + '');
                   $('#trialsleft').hide();
                   stopAction();//stops Action
               }
