@@ -126,3 +126,9 @@ html{
       left: 150px;
       z-index: 2;
   }
+
+  @media screen and (min-width: 780px){
+    .continer {
+        display: flex;
+    }
+  }
